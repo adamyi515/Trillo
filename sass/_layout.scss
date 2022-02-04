@@ -1,0 +1,29 @@
+.container {
+  max-width: 120rem; // 1200px, max-width defines the biggest it can get width wise
+  margin: 8rem auto; // Top an down is 80px;
+  background-color: var(--color-grey-light-1);
+  box-shadow: var(--shadow-dark);
+
+  min-height: 50rem; // 500px, min-height defines the minimum height an element can get.
+}
+
+.header {
+  height: 7rem; //70px
+  background-color: #fff;
+  border-bottom: var(--color-grey-light-2);
+}
+
+.content {
+  display: flex;
+}
+
+.sidebar {
+  background-color: var(--color-grey-dark-1);
+
+  flex: 0 0 18%; // grow, shrink == defines whether the element should shrink on smaller screen, basis == width
+}
+
+.hotel-view {
+  background-color: #fff;
+  flex: 1;
+}
